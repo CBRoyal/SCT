@@ -151,17 +151,19 @@
     grid-area: fire-button;
     background-color: var(--fire-bg-color);
     color: var(--fire-header-color);
+    margin-left: 10px;
 }
 #shelter-building-webpage-link-button{
     grid-area: shelter-button;
     background-color: var(--shelter-font-color);
     color: var(--fruit-font-color);
+    margin-left: 10px;
 }
 #fishing-webpage-link-button{
     grid-area: fishing-button;
     background-color: var(--fish-bg-color);
     color: var(--fish-header-color);
-    margin-left: 5px;
+    margin-left: 19px;
 }
 .navigation_links:hover{
     color: var(--fire-font-color);
