@@ -117,6 +117,9 @@
     column-count: 4;
     column-gap: 100px;
 }
+.navigation_button_images{
+    object-fit: contain;
+}
 .navigation_links{
     font-family: "Knewave", monospace;
     font-size: 30px;
