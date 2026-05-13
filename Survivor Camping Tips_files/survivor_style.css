@@ -114,8 +114,8 @@
     border: 40px solid var(--fish-bg-color);
 }
 .navigation_buttons{
-    column-count: 3;
-    column-gap: 800px;
+    column-count: 2;
+    column-gap: 400px;
 }
 .navigation_links{
     font-family: "Knewave", monospace;
