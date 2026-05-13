@@ -114,8 +114,10 @@
     border: 40px solid var(--fish-bg-color);
 }
 .navigation_buttons{
-    column-count: 4;
-    column-gap: 100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+    "shelter-button fire-button fruit-button fishing-button";
 }
 .navigation_button_images{
     object-fit: contain;
@@ -141,18 +143,22 @@
     color: var(--shelter-font-color);
 }
 #fruit-picking-webpage-link-button{
+    grid-area: fruit-button;
     background-color: var(--fruit-font-color);
     padding: 12px 20px;
 }
 #fire-starting-webpage-link-button{
+    grid-area: fire-button;
     background-color: var(--fire-bg-color);
     padding: 12px 20px;
 }
 #shelter-building-webpage-link-button{
+    grid-area: shelter-button;
     background-color: var(--shelter-font-color);
     padding: 12px 20px;
 }
 #fishing-webpage-link-button{
+    grid-area: fishing-button;
     background-color: var(--fish-bg-color);
     padding: 12px 20px;
 }
