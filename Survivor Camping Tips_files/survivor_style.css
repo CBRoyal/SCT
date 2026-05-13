@@ -145,18 +145,22 @@
 #fruit-picking-webpage-link-button{
     grid-area: fruit-button;
     background-color: var(--fruit-font-color);
+    color: var(--fruit-header-color);
 }
 #fire-starting-webpage-link-button{
     grid-area: fire-button;
     background-color: var(--fire-bg-color);
+    color: var(--fire-header-color);
 }
 #shelter-building-webpage-link-button{
     grid-area: shelter-button;
     background-color: var(--shelter-font-color);
+    color: var(--fruit-font-color);
 }
 #fishing-webpage-link-button{
     grid-area: fishing-button;
     background-color: var(--fish-bg-color);
+    color: var(--fish-header-color);
 }
 .navigation_links:hover{
     color: var(--fire-font-color);
