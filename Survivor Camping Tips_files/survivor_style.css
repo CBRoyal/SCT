@@ -163,7 +163,7 @@
     grid-area: fishing-button;
     background-color: var(--fish-bg-color);
     color: var(--fish-header-color);
-    margin-left: 19px;
+    margin-left: 10px;
 }
 .navigation_links:hover{
     color: var(--fire-font-color);
