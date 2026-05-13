@@ -114,7 +114,6 @@
     border: 40px solid var(--fish-bg-color);
 }
 .navigation_buttons{
-    background-color: var(--bg-color);
     column-count: 3;
     column-gap: 800px;
 }
