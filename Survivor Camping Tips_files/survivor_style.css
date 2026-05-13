@@ -144,23 +144,31 @@
 }
 #fruit-picking-webpage-link-button{
     grid-area: fruit-button;
+    font-family: "Knewave", sans-serif;
+    font-size: 20px;
     background-color: var(--fruit-font-color);
     color: var(--fruit-header-color);
     margin-left: 10px;
 }
 #fire-starting-webpage-link-button{
     grid-area: fire-button;
+    font-family: "Knewave", sans-serif;
+    font-size: 20px;
     background-color: var(--fire-bg-color);
     color: var(--fire-header-color);
     margin-left: 10px;
 }
 #shelter-building-webpage-link-button{
     grid-area: shelter-button;
+    font-family: "Knewave", sans-serif;
+    font-size: 20px;
     background-color: var(--shelter-font-color);
     color: var(--fruit-font-color);
 }
 #fishing-webpage-link-button{
     grid-area: fishing-button;
+    font-family: "Knewave", sans-serif;
+    font-size: 20px;
     background-color: var(--fish-bg-color);
     color: var(--fish-header-color);
     margin-left: 10px;
