@@ -137,16 +137,16 @@
     font-size: 30px;
     color: var(--shelter-font-color);
 }
-#link1{
+#fruit-picking-webpage-link-button{
     background-color: var(--fruit-font-color);
 }
-#link2{
+#fire-starting-webpage-link-button{
     background-color: var(--fire-bg-color);
 }
-#link3{
+#shelter-building-webpage-link-button{
     background-color: var(--shelter-font-color);
 }
-#link4{
+#fishing-webpage-link-button{
     background-color: var(--fish-bg-color);
 }
 .navigation_links:hover{
