@@ -142,19 +142,19 @@
 }
 #fruit-picking-webpage-link-button{
     background-color: var(--fruit-font-color);
-    padding: 12px 30px;
+    padding: 12px 20px;
 }
 #fire-starting-webpage-link-button{
     background-color: var(--fire-bg-color);
-    padding: 12px 30px;
+    padding: 12px 20px;
 }
 #shelter-building-webpage-link-button{
     background-color: var(--shelter-font-color);
-    padding: 12px 30px;
+    padding: 12px 20px;
 }
 #fishing-webpage-link-button{
     background-color: var(--fish-bg-color);
-    padding: 12px 30px;
+    padding: 12px 20px;
 }
 .navigation_links:hover{
     color: var(--fire-font-color);
