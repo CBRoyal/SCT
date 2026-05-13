@@ -146,6 +146,7 @@
     grid-area: fruit-button;
     background-color: var(--fruit-font-color);
     color: var(--fruit-header-color);
+    margin-left: 10px;
 }
 #fire-starting-webpage-link-button{
     grid-area: fire-button;
@@ -157,7 +158,6 @@
     grid-area: shelter-button;
     background-color: var(--shelter-font-color);
     color: var(--fruit-font-color);
-    margin-left: 10px;
 }
 #fishing-webpage-link-button{
     grid-area: fishing-button;
