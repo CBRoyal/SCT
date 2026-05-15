@@ -120,6 +120,7 @@
     "shelter-button fire-button fruit-button fishing-button";
 }
 .navigation_button_images{
+    margin-left: 10px;
     object-fit: contain;
 }
 .navigation_links{
