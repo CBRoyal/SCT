@@ -40,7 +40,7 @@
     border-image-source: url(https://parade.com/.image/t_share/MTkwNTgxMjEzMDQwODEzOTQ4/survivor-cambodia-960x483.jpg);
     border-image-repeat: stretch;
     border-image-slice: 50;
-    border-image-width: 60px;
+    border-image-width: 100%;
     border-image-outset: 30px;
 }
 #main_title{
