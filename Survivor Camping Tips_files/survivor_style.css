@@ -148,6 +148,7 @@
     font-family: "Knewave", sans-serif;
     font-size: 30px;
     color: var(--shelter-font-color);
+    margin-right: 20px;
 }
 #fruit-picking-webpage-link-button{
     grid-area: fruit-button;
