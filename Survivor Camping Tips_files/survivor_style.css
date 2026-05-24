@@ -167,10 +167,6 @@
     background-color: var(--shelter-font-color);
     color: var(--fruit-font-color);
 }
-#shelter-building-webpage-link-button-text{
-    position: absolute;
-    left: 15px;
-}
 #fishing-webpage-link-button{
     grid-area: fishing-button;
     position: relative;
@@ -179,6 +175,11 @@
     background-color: var(--fish-bg-color);
     color: var(--fish-header-color);
     margin-left: 10px;
+}
+#shelter-building-webpage-link-button-text, #fire-starting-webpage-link-button-text, 
+#fruit-picking-webpage-link-button-text, #fishing-webpage-link-button-text{
+    position: absolute;
+    left: 15px;
 }
 .navigation_links:hover{
     color: var(--fire-font-color);
