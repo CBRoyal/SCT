@@ -176,7 +176,12 @@
     color: var(--fish-header-color);
     margin-left: 10px;
 }
-#shelter-building-webpage-link-button-text, #fire-starting-webpage-link-button-text, 
+#shelter-building-webpage-link-button-text{
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+}
+#fire-starting-webpage-link-button-text, 
 #fruit-picking-webpage-link-button-text, #fishing-webpage-link-button-text{
     position: absolute;
     left: 25px;
