@@ -20,7 +20,13 @@
 #main_survivor_webpage{
     width: 100%;
     background-color: var(--main-bg-color);
-   
+    border: 50px solid transparent;
+    padding: 35px;
+    border-image-source: url(https://parade.com/.image/t_share/MTkwNTgxMjEzMDQwODEzOTQ4/survivor-cambodia-960x483.jpg);
+    border-image-repeat: stretch;
+    border-image-slice: 50;
+    border-image-width: 100%;
+    border-image-outset: 30px; 
 }
 #shelter_building_webpage{
     background-color: var(--fruit-font-color);
@@ -33,15 +39,6 @@
 }
 #fishing_webpage{
     background-color: var(--fish-bg-color);
-}
-#survivor_title{
-    border: 50px solid transparent;
-    padding: 35px;
-    border-image-source: url(https://parade.com/.image/t_share/MTkwNTgxMjEzMDQwODEzOTQ4/survivor-cambodia-960x483.jpg);
-    border-image-repeat: stretch;
-    border-image-slice: 50;
-    border-image-width: 100%;
-    border-image-outset: 30px;
 }
 #main_title{
     font-family: "Knewave", fantasy;
