@@ -165,7 +165,6 @@
     font-size: 20px;
     background-color: var(--shelter-font-color);
     color: var(--fruit-font-color);
-    margin-left: -20px;
 }
 #fishing-webpage-link-button{
     grid-area: fishing-button;
