@@ -112,14 +112,9 @@
 }
 .navigation_buttons{
     display: grid;
-    position: relative;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas:
     "shelter-button fire-button fruit-button fishing-button";
-}
-.navigation_buttons_text{
-    position: absolute;
-    left: 25px;
 }
 .navigation_button_images{
     margin-left: 35px;
@@ -148,6 +143,7 @@
 }
 #fruit-picking-webpage-link-button{
     grid-area: fruit-button;
+    position: relative;
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--fruit-font-color);
@@ -156,6 +152,7 @@
 }
 #fire-starting-webpage-link-button{
     grid-area: fire-button;
+    position: relative;
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--fire-bg-color);
@@ -164,13 +161,19 @@
 }
 #shelter-building-webpage-link-button{
     grid-area: shelter-button;
+    position: relative;
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--shelter-font-color);
     color: var(--fruit-font-color);
 }
+#shelter-building-webpage-link-button-text{
+    position: absolute;
+    left: 15px;
+}
 #fishing-webpage-link-button{
     grid-area: fishing-button;
+    position: relative;
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--fish-bg-color);
