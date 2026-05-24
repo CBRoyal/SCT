@@ -180,6 +180,7 @@
 #fruit-picking-webpage-link-button-text, #fishing-webpage-link-button-text{
     position: absolute;
     left: 15px;
+    bottom: 20px;
 }
 .navigation_links:hover{
     color: var(--fire-font-color);
