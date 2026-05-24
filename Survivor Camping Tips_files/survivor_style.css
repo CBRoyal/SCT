@@ -116,9 +116,14 @@
 }
 .navigation_buttons{
     display: grid;
+    position: relative;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas:
     "shelter-button fire-button fruit-button fishing-button";
+}
+.navigation_buttons_text{
+    position: absolute;
+    left: 25px;
 }
 .navigation_button_images{
     margin-left: 35px;
