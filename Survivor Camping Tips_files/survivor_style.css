@@ -176,16 +176,22 @@
     color: var(--fish-header-color);
     margin-left: 10px;
 }
-#shelter-building-webpage-link-button-text{
-    position: absolute;
-    left: 35px;
-    bottom: 10px;
-}
-#fire-starting-webpage-link-button-text, 
+#shelter-building-webpage-link-button-text, #fire-starting-webpage-link-button-text, 
 #fruit-picking-webpage-link-button-text, #fishing-webpage-link-button-text{
     position: absolute;
     left: 25px;
-    bottom: 20px;
+}
+#shelter-building-webpage-link-button-text{
+    bottom: 13px;
+}
+#fire-starting-webpage-link-button-text{
+    bottom: 18px;
+}
+#fruit-picking-webpage-link-button-text{
+    bottom: 16px;
+}
+#fishing-webpage-link-button-text{
+    bottom: 15px;
 }
 .navigation_links:hover{
     color: var(--fire-font-color);
