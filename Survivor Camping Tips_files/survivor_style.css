@@ -11,7 +11,6 @@
     --shelter-text-bg-color: #ffebcd;
     --fire-font-color: #ffff00;
     --fruit-font-color: #8b4513;
-    --fish-font-color: var(--shelter-header-color);
     --fish-text-bg-color: #00ced1;
     --main-bg-color: #006400;
     --fire-bg-color: #b22222;
@@ -66,7 +65,7 @@
 #fishing_title{
     font-family: "Knewave", fantasy;
     font-size: 60px;
-    color: var(--fish-header-color);
+    color: var(--shelter-header-color);
     text-shadow: 2px 2px var(--text-shadow-color);
 }
 #survivor_camp_image{
@@ -173,7 +172,7 @@
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--fish-bg-color);
-    color: var(--fish-header-color);
+    color: var(--shelter-header-color);
     margin-left: 10px;
 }
 #shelter-building-webpage-link-button-text, #fire-starting-webpage-link-button-text, 
