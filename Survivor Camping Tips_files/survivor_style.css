@@ -115,6 +115,9 @@
     grid-template-areas:
     "shelter-button fire-button fruit-button fishing-button";
 }
+.navigation_buttons:hover{
+    box-shadow: 0 10px 20px 0 var(--text-shadow-color);
+}
 .navigation_buttons:active{
     transform: scale(0.5, 0.5);
 }
