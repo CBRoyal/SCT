@@ -172,7 +172,7 @@
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--fish-bg-color);
-    color: var(--shelter-header-color);
+    color: var(--fish-header-color);
     margin-left: 10px;
 }
 #shelter-building-webpage-link-button-text, #fire-starting-webpage-link-button-text, 
@@ -233,5 +233,12 @@
     #survivor_logo_image{
         margin-left: 10px;
         margin-bottom: 5px;
+    }
+    .navigation_buttons{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+        "shelter-button fire-button"
+        "fruit-button fishing-button";
     }
 }
