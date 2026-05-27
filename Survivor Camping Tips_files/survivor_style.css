@@ -247,4 +247,21 @@
         padding: 45px;
         border-image-width: 60px;
     }
+    #survivor_logo_image{
+        margin-left: 15px;
+        width: 300px;
+    }
+    #survivor_camp_image{
+        margin-left: 15px;
+        width: 300px;
+    }
+    .navigation_buttons{
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas:
+        "shelter-button"
+        "fire-button"
+        "fruit-button"
+        "fishing-button";
+    }
 }
