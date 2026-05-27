@@ -289,6 +289,9 @@
         width: 300px;
         margin-left: 50px;
     }
+    #title_description, #link_showcase{
+        padding: 10px;
+    }
     #fire-starting-webpage-link-button, #fruit-picking-webpage-link-button,
     #fishing-webpage-link-button{
         margin-top: 10px;
