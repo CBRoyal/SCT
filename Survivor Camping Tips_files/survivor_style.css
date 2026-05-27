@@ -292,5 +292,9 @@
     #fire-starting-webpage-link-button, #fruit-picking-webpage-link-button,
     #fishing-webpage-link-button{
         margin-top: 10px;
+        font-size: 25px;
+    }
+    #shelter-building-webpage-link-button{
+        font-size: 25px;
     }
 }
