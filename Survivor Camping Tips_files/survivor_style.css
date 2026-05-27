@@ -115,12 +115,6 @@
     grid-template-areas:
     "shelter-button fire-button fruit-button fishing-button";
 }
-.navigation_buttons:hover{
-    box-shadow: 0 10px 20px 0 var(--text-shadow-color);
-}
-.navigation_buttons:active{
-    transform: scale(0.5, 0.5);
-}
 .navigation_button_images{
     margin-left: 35px;
     object-fit: contain;
@@ -155,6 +149,12 @@
     color: var(--fruit-header-color);
     margin-left: 10px;
 }
+#fruit-picking-webpage-link-button:hover{
+    box-shadow: 0 10px 20px 0 var(--text-shadow-color);
+}
+#fruit-picking-webpage-link-button:active{
+    transform: scale(0.5, 0.5);
+}
 #fire-starting-webpage-link-button{
     grid-area: fire-button;
     position: relative;
@@ -164,6 +164,12 @@
     color: var(--fire-header-color);
     margin-left: 10px;
 }
+#fire-starting-webpage-link-button:hover{
+    box-shadow: 0 10px 20px 0 var(--text-shadow-color);
+}
+#fire-starting-webpage-link-button:active{
+    transform: scale(0.5, 0.5);
+}
 #shelter-building-webpage-link-button{
     grid-area: shelter-button;
     position: relative;
@@ -171,6 +177,12 @@
     font-size: 20px;
     background-color: var(--shelter-font-color);
     color: var(--fruit-font-color);
+}
+#shelter-building-webpage-link-button:hover{
+    box-shadow: 0 10px 20px 0 var(--text-shadow-color);
+}
+#shelter-building-webpage-link-button:active{
+    transform: scale(0.5, 0.5);
 }
 #fishing-webpage-link-button{
     grid-area: fishing-button;
@@ -180,6 +192,12 @@
     background-color: var(--fish-bg-color);
     color: var(--fish-header-color);
     margin-left: 10px;
+}
+#fishing-webpage-link-button:hover{
+    box-shadow: 0 10px 20px 0 var(--text-shadow-color);
+}
+#fishing-webpage-link-button:active{
+    transform: scale(0.5, 0.5);
 }
 #shelter-building-webpage-link-button-text, #fire-starting-webpage-link-button-text, 
 #fruit-picking-webpage-link-button-text, #fishing-webpage-link-button-text{
