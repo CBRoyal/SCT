@@ -228,7 +228,7 @@
     }
     #survivor_logo_image{
         margin-left: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .navigation_buttons{
         grid-template-columns: 50% 50%;
