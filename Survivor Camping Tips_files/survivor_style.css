@@ -183,11 +183,7 @@
     left: 53px;
     bottom: 5px;
 }
-#fire-starting-webpage-link-button-text{
-    left: 68px;
-    bottom: 16px;
-}
-#fruit-picking-webpage-link-button-text{
+#fire-starting-webpage-link-button-text, #fruit-picking-webpage-link-button-text{
     left: 68px;
     bottom: 10px;
 }
