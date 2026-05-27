@@ -243,6 +243,6 @@
 }
 @media (max-width: 500px){
     #main_survivor_webpage{
-        padding: 60px;
+        width: 100%;
     }
 }
