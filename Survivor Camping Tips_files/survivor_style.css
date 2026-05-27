@@ -241,4 +241,7 @@
         "shelter-button fire-button"
         "fruit-button fishing-button";
     }
+    #fruit-picking-webpage-link-button, #fishing-webpage-link-button{
+        margin-top: 5px;
+    }
 }
