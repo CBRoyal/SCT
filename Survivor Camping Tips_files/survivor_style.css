@@ -287,6 +287,6 @@
         "fire-button"
         "fruit-button"
         "fishing-button";
-        padding-right: -30px;
+        width: 100px;
     }
 }
