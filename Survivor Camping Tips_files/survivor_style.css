@@ -115,6 +115,9 @@
     grid-template-areas:
     "shelter-button fire-button fruit-button fishing-button";
 }
+.navigation_buttons:active{
+    transform: scale(0.5, 0.5);
+}
 .navigation_button_images{
     margin-left: 35px;
     object-fit: contain;
