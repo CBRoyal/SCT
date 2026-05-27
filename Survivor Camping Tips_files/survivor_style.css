@@ -179,18 +179,21 @@
 #shelter-building-webpage-link-button-text, #fire-starting-webpage-link-button-text, 
 #fruit-picking-webpage-link-button-text, #fishing-webpage-link-button-text{
     position: absolute;
-    left: 45px;
 }
 #shelter-building-webpage-link-button-text{
+    left: 45px;
     bottom: 8px;
 }
 #fire-starting-webpage-link-button-text{
+    left: 53px;
     bottom: 16px;
 }
 #fruit-picking-webpage-link-button-text{
+    left: 53px;
     bottom: 14px;
 }
 #fishing-webpage-link-button-text{
+    left: 63px;
     bottom: 15px;
 }
 .navigation_links:hover{
