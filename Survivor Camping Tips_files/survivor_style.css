@@ -223,3 +223,8 @@
 .copyright_link:hover, .storage_link:hover{
     color: var(--fire-header-color);
 }
+@media (max-width: 800px){
+    #survivor_camp_image{
+        float: none;
+    }
+}
