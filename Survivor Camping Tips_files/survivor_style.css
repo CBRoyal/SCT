@@ -249,11 +249,11 @@
     }
     #survivor_logo_image{
         margin-left: 15px;
-        width: 300px;
+        width: 350px;
     }
     #survivor_camp_image{
         margin-left: 15px;
-        width: 300px;
+        width: 350px;
     }
     .navigation_buttons{
         grid-template-columns: 100%;
