@@ -228,10 +228,10 @@
 @media (max-width: 800px){
     #survivor_camp_image{
         float: none;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #survivor_logo_image{
-        margin-left: 10px;
+        margin-left: 20px;
         margin-bottom: 5px;
     }
     .navigation_buttons{
