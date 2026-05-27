@@ -287,6 +287,7 @@
         "fruit-button"
         "fishing-button";
         width: 300px;
+        margin-left: 20px;
     }
     #fire-starting-webpage-link-button{
         margin-top: 5px;
