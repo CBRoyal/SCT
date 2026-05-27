@@ -180,19 +180,19 @@
     position: absolute;
 }
 #shelter-building-webpage-link-button-text{
-    left: 45px;
+    left: 48px;
     bottom: 5px;
 }
 #fire-starting-webpage-link-button-text{
-    left: 57px;
+    left: 63px;
     bottom: 16px;
 }
 #fruit-picking-webpage-link-button-text{
-    left: 57px;
-    bottom: 14px;
+    left: 63px;
+    bottom: 10px;
 }
 #fishing-webpage-link-button-text{
-    left: 73px;
+    left: 82px;
     bottom: 15px;
 }
 .navigation_links:hover{
