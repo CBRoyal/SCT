@@ -2,19 +2,16 @@
     --text-shadow-color: #000000;
     --main-header-color: #a52a2a;
     --main-title-bg-color: #800000;
-    --shelter-header-color: #32cd32;
     --fire-button-font-color: #ff8c00;
     --fruit-button-font-color: #daa520;
-    --fish-header-color: #ffb6c1;
+    --fishing-button-bg-color: #ffb6c1;
     --main-font-color: #ff4500;
-    --shelter-font-color:#008000;
-    --shelter-text-bg-color: #ffebcd;
-    --fire-button-font-color: #ffff00;
+    --shelter-button-bg-color:#008000;
+    --footer-font-color: #ffff00;
     --fruit-button-bg-color: #8b4513;
-    --fish-text-bg-color: #00ced1;
     --main-bg-color: #006400;
     --fire-button-bg-color: #b22222;
-    --fish-button-bg-color: #4169e1;
+    --fishing-button-bg-color: #4169e1;
 }
 #main_survivor_webpage{
     background-color: var(--main-bg-color);
@@ -88,7 +85,7 @@
     position: relative;
     font-family: "Knewave", sans-serif;
     font-size: 20px;
-    background-color: var(--shelter-font-color);
+    background-color: var(--shelter-button-bg-color);
     color: var(--fruit-font-color);
 }
 #shelter-building-webpage-link-button:hover{
@@ -102,8 +99,8 @@
     position: relative;
     font-family: "Knewave", sans-serif;
     font-size: 20px;
-    background-color: var(--fish-bg-color);
-    color: var(--fish-header-color);
+    background-color: var(--fishing-button-bg-color);
+    color: var(--fishing-button-bg-color);
     margin-left: 10px;
 }
 #fishing-webpage-link-button:hover{
@@ -128,15 +125,9 @@
     left: 92px;
     bottom: 15px;
 }
-.navigation_links:hover{
-    color: var(--fire-font-color);
-}
-.fire_navigation_links:hover{
-    color: var(--main-title-bg-color);
-}
 .survivor_footer{
     background-image: url("bamboo_background.jpeg");
-    color: var(--fire-font-color);
+    color: var(--footer-font-color);
     text-shadow: 1px 1px var(--main-font-color);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
