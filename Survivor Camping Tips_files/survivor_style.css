@@ -4,7 +4,7 @@
     --main-title-bg-color: #800000;
     --fire-button-font-color: #ff8c00;
     --fruit-button-font-color: #daa520;
-    --fishing-button-bg-color: #ffb6c1;
+    --fishing-button-font-color: #ffb6c1;
     --main-font-color: #ff4500;
     --shelter-button-bg-color:#008000;
     --footer-font-color: #ffff00;
@@ -89,7 +89,7 @@
     color: var(--fruit-font-color);
 }
 #shelter-building-webpage-link-button:hover{
-    box-shadow: 0 10px 20px 0 var(--fire-header-color);
+    box-shadow: 0 10px 20px 0 var(--fire-button-font-color);
 }
 #shelter-building-webpage-link-button:active{
     transform: scale(0.5, 0.5);
@@ -100,11 +100,11 @@
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--fishing-button-bg-color);
-    color: var(--fishing-button-bg-color);
+    color: var(--fishing-button-font-color);
     margin-left: 10px;
 }
 #fishing-webpage-link-button:hover{
-    box-shadow: 0 10px 20px 0 var(--fire-header-color);
+    box-shadow: 0 10px 20px 0 var(--fire-button-font-color);
 }
 #fishing-webpage-link-button:active{
     transform: scale(0.5, 0.5);
