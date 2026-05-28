@@ -86,7 +86,7 @@
     font-family: "Knewave", sans-serif;
     font-size: 20px;
     background-color: var(--shelter-button-bg-color);
-    color: var(--fruit-font-color);
+    color: var(--fruit-button-bg-color);
 }
 #shelter-building-webpage-link-button:hover{
     box-shadow: 0 10px 20px 0 var(--fire-button-font-color);
