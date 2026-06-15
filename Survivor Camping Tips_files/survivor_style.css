@@ -140,7 +140,7 @@
 .copyright_link:hover, .storage_link:hover{
     color: var(--fire-header-color);
 }
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
     #survivor_camp_image{
         float: none;
         margin-left: 30px;
@@ -160,7 +160,7 @@
         margin-top: 5px;
     }
 }
-@media screen and (max-width: 500px){
+@media (max-width: 500px){
     #main_survivor_webpage{
         width: 100%;
         padding: 55px;
